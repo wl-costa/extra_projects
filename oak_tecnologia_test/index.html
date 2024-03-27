@@ -10,6 +10,20 @@
 
 <body>
     <div class="container">
+        <h1>Cadastro de Produtos</h1>
+        <form class="productForm">
+            <label for="productName">Nome do produto:</label>
+            <input type="text" id="productName" required>
+            <label for="productDescription">Descrição do produto:</label>
+            <input type="text" id="productDescription" required>
+            <label for="productValue">Valor do produto:</label>
+            <input type="number" id="productValue" required>
+            <label for="isAvailable">Está disponível para venda?</label>
+            <select id="isAvailable" required>
+                <option value="yes">Sim</option>
+                <option value="no">Não</option>
+            </select>
+        </form>
     </div>
 </body>
 
