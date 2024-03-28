@@ -20,7 +20,7 @@ Este projeto é uma aplicação web simples para cadastrar e listar produtos. Ut
 
 ## Agradecimentos
 
-Agradeço a oportunidade de participar do processo seletivo da Oak Tecnologia e espero receber um contato em breve! :D
+Agradeço a oportunidade de participar do processo seletivo da Oak Tecnologia e espero muito ser contatado em breve! :D
 
 
 ## Contato
