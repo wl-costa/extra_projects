@@ -1,6 +1,6 @@
 # Bem-vindo ao Projeto de Cadastro e Listagem de Produtos da Oak Tecnologia
 
-Este projeto é uma aplicação web simples para cadastrar e listar produtos. Utilizei HTML, CSS e JavaScript para criar uma interface amigável e funcional. Além disso, decidi que o projeto seria desenvolvido utilizando a ferramenta de versionamento git para demonstrar minhas habilidades na mesma. Sinta-se livre para explorar todos os meus commits e entender minha jornada de desenvolvimento nesse projeto :)
+Este projeto é uma aplicação web simples para cadastrar e listar produtos. Utilizei HTML, CSS e JavaScript para criar uma interface amigável e funcional. Além disso, decidi que o projeto seria desenvolvido utilizando a ferramenta de versionamento git para demonstrar minhas habilidades na mesma. Sinta-se livre para explorar todos os meus commits no meu perfil do gitgub: `https://github.com/wl-costa` e entender minha jornada de desenvolvimento nesse projeto :)
 
 ## Lista de funcionalidades a serem implementadas (obrigatórias) -
 
@@ -15,10 +15,8 @@ Este projeto é uma aplicação web simples para cadastrar e listar produtos. Ut
 ## Lista de funcionalidades a serem implementadas (extras) -
 
 - **Esconder Listagem**: A listagem deverá ser escondida após cadastrar novo produto e reaberta após clicar no botão "novo produto".
-- **Excluir produto**: Deve haver um botão ao lado de cada produto para que seja possível excluí-lo da lista.
-- **Ler descrição do Produto**: Deve haver um botão ao lado de cada produto para que seja possível ler sua descrição.
-- **Selecionar ordenação**: O usuário poderá selecionar o tipo de ordenação na lista de produtos
-
+- **Selecionar ordenação**: O usuário poderá selecionar o tipo de ordenação na lista de produtos.
+- **Checar se o valor é válido**: O código deverá checar se o valor inserido no campo de cadastro é válido, em caso negativo mostrar uma mensagem de erro.
 
 ## Agradecimentos
 
@@ -27,4 +25,4 @@ Agradeço a oportunidade de participar do processo seletivo da Oak Tecnologia e 
 
 ## Contato
 
-Para mais informações, entre em contato conosco através do e-mail: wendellcosta.dev@gmail.com, ou pelo meu linkedin: linkedin.com/in/wendell-costa-b824ab2b5/.
+Para mais informações, entre em contato conosco através do e-mail: wendellcosta.dev@gmail.com, ou pelo meu linkedin: `linkedin.com/in/wendell-costa-b824ab2b5/`.

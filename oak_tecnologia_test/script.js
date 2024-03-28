@@ -50,7 +50,7 @@ function validateNumber(value) {
     return true;
 }
 
-//Adicionei um eventListener ao formulário que executa uma arrow function.
+//Adicionei um eventListener ao formulário que executa uma arrow function ao submit.
 document.getElementById('productForm').addEventListener('submit', (event) => {
 
     //Evita que o submit recarregue a página
@@ -77,6 +77,7 @@ document.getElementById('productForm').addEventListener('submit', (event) => {
         available,
     };
 
+    //Chaama a função addProduct
     addProduct(product);
 
     //Agora os campos do formulário do formulário são limpos e voltam ao valor padrão
