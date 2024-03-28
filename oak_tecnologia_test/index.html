@@ -9,10 +9,9 @@
 </head>
 
 <body>
-
     <div class="container">
         <h1>Cadastro de Produtos</h1>
-        <form class="productForm">
+        <form id="productForm">
             <label for="productName">Nome do produto:</label>
             <input type="text" id="productName" required>
             <label for="productDescription">Descrição do produto:</label>
@@ -35,10 +34,12 @@
                     <th>Valor:</th>
                 </tr>
             </thead>
+            <tbody>
+            </tbody>
         </table>
         <button id="newProduct">Novo Produto</button>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

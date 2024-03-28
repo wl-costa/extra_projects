@@ -14,6 +14,7 @@ Este projeto é uma aplicação web simples para cadastrar e listar produtos. Ut
 
 ## Lista de funcionalidades a serem implementadas (extras) -
 
+- **Esconder Listagem**: A listagem deverá ser escondida após cadastrar novo produto e reaberta após clicar no botão "novo produto".
 - **Excluir produto**: Deve haver um botão ao lado de cada produto para que seja possível excluí-lo da lista.
 - **Ler descrição do Produto**: Deve haver um botão ao lado de cada produto para que seja possível ler sua descrição.
 - **Selecionar ordenação**: O usuário poderá selecionar o tipo de ordenação na lista de produtos

@@ -32,16 +32,12 @@ label {
     pointer-events: none;
 }
 
-input, select {
+input,
+select {
     width: 98%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-select {
-    width: 843px;
-    margin-left: 2px;
 }
 
 button {
@@ -64,8 +60,13 @@ table {
     width: 100%;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ccc;
     padding: 5px;
     text-align: left;
+}
+
+#productList tbody tr:hover {
+    background-color: #0077b6;
 }
