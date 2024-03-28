@@ -25,4 +25,4 @@ Agradeço a oportunidade de participar do processo seletivo da Oak Tecnologia e 
 
 ## Contato
 
-Para mais informações, entre em contato conosco através do e-mail: wendellcosta.dev@gmail.com, ou pelo meu linkedin: `linkedin.com/in/wendell-costa-b824ab2b5/`.
+Para mais informações, entre em contato comigo através do e-mail: wendellcosta.dev@gmail.com, ou pelo meu linkedin: `linkedin.com/in/wendell-costa-b824ab2b5/`.
