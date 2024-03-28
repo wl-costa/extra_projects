@@ -14,7 +14,7 @@ function updateProductList() {
     //Define o innerHTML do tbody como vazio para evitar duplicidade ( apanhei nessa :p )
     tbody.innerHTML = "";
 
-    //Agora os produtos são ordenados à partir de seus valores de maneira decrescente.
+    //Agora os produtos são ordenados à partir de seus valores de maneira crescente.
     products.sort((a, b) => a.value - b.value);
 
     // O loop percorre o array products de forma ordenada,
