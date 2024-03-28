@@ -5,14 +5,17 @@ body {
     overflow-x: hidden;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #003049;
+    color: #000814;
 }
 
 .container {
-    border: 5px solid #333333;
+    border: 5px solid #fdf0d5;
     padding: 20px;
     border-radius: 10px;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #669bbc;
 }
 
 h1 {
@@ -30,10 +33,15 @@ label {
 }
 
 input, select {
-    width: 100%;
+    width: 98%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+select {
+    width: 843px;
+    margin-left: 2px;
 }
 
 button {
@@ -48,8 +56,8 @@ button {
 
 button:hover {
     transition: background-color 0.5s, color 0.5s;
-    background-color: rgb(31, 220, 75);
-    color: rgb(0, 0, 0);
+    background-color: #004e98;
+    color: #fff;
 }
 
 table {
