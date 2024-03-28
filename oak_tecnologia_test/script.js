@@ -42,6 +42,14 @@ function updateProductList() {
     }
 }
 
+//[Função extra] - Adicionei uma função que checa se o número que está sendo inserido começa com zero , se for o caso ele retorna "false".
+function validateNumber(value) {
+    if (value.toString().startsWith("0")) {
+        return false;
+    }
+    return true;
+}
+
 //Adicionei um eventListener ao formulário que executa uma arrow function.
 document.getElementById('productForm').addEventListener('submit', (event) => {
 
@@ -53,6 +61,13 @@ document.getElementById('productForm').addEventListener('submit', (event) => {
     const description = document.getElementById('productDescription').value;
     const value = document.getElementById('productValue').value;
     const available = document.getElementById('isAvailable').value;
+
+    //[Função extra] - Se a função validateNumber retornar "false" uma mensagem de alerta é exbida
+    if (!validateNumber(value)) {
+        // Exibe uma mensagem de erro
+        alert("Valor inválido. Insira um número inteiro sem zeros à esquerda.");
+        return;
+    }
 
     //Cria um novo objeto para armazenar os valores.
     const product = {
