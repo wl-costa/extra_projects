@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url(https://i.ibb.co/rt3HybH/close.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    transition: .5s;
+    z-index: 2;
+}
+
+.showcase.active {
+    right: 260px;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03a9f4;
+    mix-blend-mode: overlay;
+}
+
+.text {
+    position: relative;
+    z-index: 10;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 720;
+    color: #fff;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 620;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 520;
+    color: #fff;
+    line-height: 3em;
+}
+
+p {
+    font-size: 1.0em;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+}
+
+.text a {
+    display: inline-block;
+    font-size: 1em;
+    background: none;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: .2s;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.text a:hover {
+    color: #111;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.social {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    position: relative;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+}
+
+.menu ul li a:hover {
+    color: #03a9f4;
+    transition: .3s;
+}
+
+/*Toda estilização em CSS a seguir juntamente com as classes e id's referenciadas
+foram obtidas e modificadas à partir do site "https://uiverse.io" visando somente
+o aprendizado */
+
+/*Botão do GitHub*/
+.Btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all .3s;
+}
+
+.Btn:hover .svgContainer {
+    background-color: rgba(000, 000, 000, 0.466);
+    backdrop-filter: blur(4px);
+}
+
+/*Botão do LinkedIn*/
+.Btn2 {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.svgContainer2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.BG2 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0077b5;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all .3s;
+}
+
+.Btn2:hover .svgContainer2 {
+    border: 1px solid rgba(216, 216, 216, 0.466);
+    background-color: rgba(8, 117, 241, 0.466);
+    backdrop-filter: blur(4px);
+}
