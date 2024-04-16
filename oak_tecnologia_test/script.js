@@ -77,7 +77,7 @@ document.getElementById('productForm').addEventListener('submit', (event) => {
         available,
     };
 
-    //Chaama a função addProduct
+    //Chama a função addProduct
     addProduct(product);
 
     //Agora os campos do formulário do formulário são limpos e voltam ao valor padrão
@@ -85,6 +85,8 @@ document.getElementById('productForm').addEventListener('submit', (event) => {
 
     //O formulário agora é ocultado através da alteração do estilo de display.
     document.getElementById('productForm').style.display = 'none';
+    //O título de cadas agora é ocultado através da alteração do estilo de display.
+    document.getElementById('title').style.display = 'none';
 });
 
 //[Função extra] - Adiciona um eventListener onde ao clicar no botão "Ordenar por valor", ele altera o valor da variável sortOrder.
@@ -100,4 +102,6 @@ document.getElementById('sortButton').addEventListener('click', () => {
 //Adiciona um eventListener onde clicar no botão "Novo produto", o formulário é mostrado seguindo a mesma lógica anterior.
 document.getElementById('newProduct').addEventListener('click', () => {
     document.getElementById('productForm').style.display = 'block';
+    //Mostra o título novamente
+    document.getElementById('title').style.display = 'block';
 });
