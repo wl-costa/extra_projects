@@ -88,7 +88,7 @@ header .logo {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 720;
     color: #fff;
     line-height: 1em;
@@ -232,7 +232,7 @@ o aprendizado */
 
 .Btn:hover .svgContainer {
     background-color: rgba(000, 000, 000, 0.466);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
 }
 
 /*Botão do LinkedIn*/
@@ -269,7 +269,7 @@ o aprendizado */
     content: "";
     width: 100%;
     height: 100%;
-    background: #0077b5;
+    background: rgba(8, 117, 241, 0.466);
     z-index: -1;
     border-radius: 10px;
     pointer-events: none;
@@ -278,6 +278,6 @@ o aprendizado */
 
 .Btn2:hover .svgContainer2 {
     border: 1px solid rgba(216, 216, 216, 0.466);
-    background-color: rgba(8, 117, 241, 0.466);
-    backdrop-filter: blur(4px);
+    background-color: #0077b5;
+    backdrop-filter: blur(10px);
 }
