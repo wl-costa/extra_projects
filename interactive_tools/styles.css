@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #F9F6EE;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Exo', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Exo', sans-serif;
+  color: #859ba8;
+}
+
+.tools-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 10px);
+    margin: 10px 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: calc(33.33% - 10px);
+  }
+}
+
+.card {
+  width: 220px;
+  height: 220px;
+  background: #f5f5f5;
+  padding: 2rem 1.5rem;
+  transition: box-shadow .3s ease, transform .2s ease;
+  cursor: pointer;
+  margin-right: 6px;
+  margin-top: 6px;
+  opacity: 0.8;
+  border: 2x solid #fff;
+  border-radius: 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .2s ease, opacity .2s ease;
+}
+
+.card-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.calculator-avatar {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  background-image: url("img/calculator.png");
+  background-size: cover;
+}
+
+.card-title {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.card-subtitle {
+  color: #859ba8;
+  font-size: 0.8em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 50px #23232333;
+}
+
+.card:hover .card-info {
+  transform: translateY(-5%);
+}
+
+.card-avatar:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+details {
+  cursor: pointer;
+}
+
+details p {
+  cursor: initial;
+}
+
+footer a {
+  text-decoration: none;
+  color: aqua;
+}
