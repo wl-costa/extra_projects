@@ -9,10 +9,11 @@
 }
 
 body {
-  background-color: #F9F6EE;
+  background-color: #d6d6d6;
 }
 
 h1 {
+  color: #333;
   text-align: center;
   font-size: 3em;
   margin-top: 20px;
@@ -52,7 +53,7 @@ h2 {
 .card {
   width: 220px;
   height: 220px;
-  background: #f5f5f5;
+  background: #ebebeb;
   padding: 2rem 1.5rem;
   transition: box-shadow .3s ease, transform .2s ease;
   cursor: pointer;
@@ -115,21 +116,53 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
+  height: 65px;
+  background-color: #a7a7a7;
   color: #fff;
   padding: 1rem;
   text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
-details {
-  cursor: pointer;
-}
-
-details p {
-  cursor: initial;
-}
-
-footer a {
+a {
   text-decoration: none;
-  color: aqua;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 14px;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+.button:hover .text {
+  color: #181717;
+}
+
+.button:hover svg path {
+  fill: #181717;
 }
